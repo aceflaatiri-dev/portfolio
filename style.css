@@ -5,7 +5,7 @@
     }
 
     .navbar-brand {
-      font-family: 'Luxurious Roman', serif;
+font-family: "Montserrat", sans-serif;
     }
 
     .btn-glow {
@@ -73,4 +73,10 @@
       font-size: 0.9rem;
       color: #cbd5e1;
     }
- 
+#etudiant{
+  font-family: "Luxurious Roman", serif;
+}
+.img-hover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
