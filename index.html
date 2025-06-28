@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Acef Laatiri | Portfolio Étudiant en Informatique</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Luxurious+Roman&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+   
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Acef Laatiri</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-3 fs-5">
+          <li class="nav-item"><a class="nav-link active" href="#hero">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
+      <div class="hero-text text-center text-lg-start mb-5 mb-lg-0 animate-fade-in">
+        <h1 class="display-1 fw-bold mb-3">Acef Laatiri</h1>
+        <p class="lead fs-3 mb-4">Étudiant en Informatique</p>
+        <a href="#projects" class="btn btn-glow btn-lg d-inline-flex align-items-center gap-2">
+          Voir mes projets
+          <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 4l1.41 1.41L8.83 10H20v2H8.83l4.58 4.59L12 18l-8-8z"/>
+          </svg>
+        </a>
+      </div>
+      <div class="hero-image animate-fade-in">
+        <img src="https://via.placeholder.com/280" alt="Photo de Acef Laatiri" class="rounded-circle shadow-lg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2 class="text-white mb-5 text-center display-5 fw-semibold">Mes meilleurs projets</h2>
+    <div class="row g-4 justify-content-center">
+
+      <!-- Projet 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100 shadow-lg">
+          <img src="https://www.01net.com/app/uploads/2023/10/sites-gratuits-telecharger-musique-1360x907.jpg" class="card-img-top" alt="Music Downloader App" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Application Mobile de Téléchargement de Musique</h5>
+            <p class="card-text flex-grow-1">Développée avec Python (yt-dlp, Kivy), cette application Android permet de télécharger des MP3/MP4 avec interface moderne et pub intégrée.</p>
+            <a href="#" class="btn btn-outline-primary mt-3">Voir le code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100 shadow-lg">
+          <img src="https://2.bp.blogspot.com/-SnLvwqcHAng/Xz0eqzUPHiI/AAAAAAAALCU/VqLIsqS1f2Iu4y2yDpZMbbpy97Pj_g2ggCLcBGAsYHQ/s640/minisite-wall.png" class="card-img-top" alt="Responsive Bootstrap Website" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Portfolio Web Responsive</h5>
+            <p class="card-text flex-grow-1">Création d’un site personnel moderne avec HTML, CSS, Bootstrap. Mobile-friendly, prêt à être migré vers React.</p>
+            <a href="#" class="btn btn-outline-primary mt-3">Voir le site</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100 shadow-lg">
+          <img src="https://cdn.prod.website-files.com/619236e25227a12db29bca9c/627e667e9e2dc2b0d6d3a2a0_Site%20internet%201.1.png" class="card-img-top" alt="acefFood Restaurant Website" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">acefFood</h5>
+            <p class="card-text flex-grow-1">Site web de restaurant conçu avec Bootstrap et HTML/CSS. Responsive, intuitif, section menu, contact, et témoignages.</p>
+            <a href="#" class="btn btn-outline-primary mt-3">Voir le projet</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container text-white">
+    <h2 class="mb-4 text-center display-5 fw-semibold">À propos de moi</h2>
+    <p class="lead text-center mx-auto" style="max-width:700px;">
+      Étudiant passionné en informatique, je conçois des applications web et mobiles modernes. Curieux et motivé, je suis constamment à la recherche de nouveaux défis technologiques.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container text-white">
+    <h2 class="mb-4 text-center display-5 fw-semibold">Contactez-moi</h2>
+    <form class="mx-auto" style="max-width: 500px;">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="name" placeholder="Votre nom" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Votre email" required />
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Votre message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-glow w-100">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Acef Laatiri | Tous droits réservés
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
